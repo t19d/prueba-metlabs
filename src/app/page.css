@@ -1,0 +1,9 @@
+@import url("@/app/styles/buttons.css");
+@import url("@/app/styles/links.css");
+
+body > main {
+	display: flex;
+	flex-direction: column;
+	gap: 2vh;
+	gap: 2dvh;
+}

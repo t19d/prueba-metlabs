@@ -1,9 +1,10 @@
+import Menu from "./components/menu/Menu/Menu";
 import "./page.css";
 
 export default function Home() {
 	return (
 		<>
-			<header></header>
+			<Menu />
 			<main></main>
 		</>
 	);

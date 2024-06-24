@@ -1,6 +1,6 @@
-import Logo from "../Logo/Logo";
-import NavLinks from "../NavLinks/NavLinks";
-import SearchBar from "../SearchBar/SearchBar";
+import Logo from "@/app/components/menu/Logo/Logo";
+import NavLinks from "@/app/components/menu/NavLinks/NavLinks";
+import SearchBar from "@/app/components/menu/SearchBar/SearchBar";
 import "./Menu.css";
 
 export default function Menu() {

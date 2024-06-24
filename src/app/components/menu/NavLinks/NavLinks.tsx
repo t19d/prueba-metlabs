@@ -1,6 +1,6 @@
-import HomeIcon from "../../icons/HomeIcon";
-import LinkMenu from "../LinkMenu/LinkMenu";
-import UploadButton from "../UploadButton/UploadButton";
+import HomeIcon from "@/app/components/icons/HomeIcon";
+import LinkMenu from "@/app/components/menu/LinkMenu/LinkMenu";
+import UploadButton from "@/app/components/menu/UploadButton/UploadButton";
 import "./NavLinks.css";
 
 export default function NavLinks() {

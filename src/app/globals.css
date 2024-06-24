@@ -1,0 +1,40 @@
+@font-face {
+	font-family: "DM Sans";
+	src: url("/fonts/DMSans.ttf");
+}
+
+* > * {
+	box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	font-family: "DM Sans", sans-serif;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	gap: 2vh;
+	gap: 2dvh;
+	min-height: 100vh;
+	min-height: 100dvh;
+	padding: 2vh 2vw;
+	padding: 2dvh 2dvw;
+
+	background-color: #0a0b14;
+	color: #ffffff;
+}

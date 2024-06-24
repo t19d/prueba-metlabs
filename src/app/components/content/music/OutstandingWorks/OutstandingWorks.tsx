@@ -8,9 +8,21 @@ export default function OutstandingWorks() {
 				<h3>Obras destacadas</h3>
 
 				<ul>
-					<li>Music</li>
-					<li>Collectibles</li>
-					<li>Utiliy</li>
+					<li>
+						<a href="#" className="link">
+							Music
+						</a>
+					</li>
+					<li>
+						<a href="#" className="link">
+							Collectibles
+						</a>
+					</li>
+					<li>
+						<a href="#" className="link">
+							Utility
+						</a>
+					</li>
 				</ul>
 			</header>
 

@@ -42,16 +42,21 @@
 		left: 10%;
 		right: 10%;
 		transform: translateY(-50%);
-		display: none;
+		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		gap: 1rem;
 		background-color: #322638;
-		padding: 0.625rem 1rem ;
+		padding: 0.625rem 1rem;
 		border-radius: 14px;
+		opacity: 0;
+		transition: 0.3s all;
+		pointer-events: none;
 	}
 
-	&:hover .actions {
-		display: flex;
+	&:hover .actions,
+	.actions:has(a:focus) {
+		opacity: 1;
+		pointer-events: auto;
 	}
 }

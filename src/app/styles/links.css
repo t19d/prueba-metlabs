@@ -3,7 +3,7 @@ a.link {
 	display: flex;
 	align-items: center;
 	gap: 0.75rem;
-	color: #ffffff;
+	color: #c9c9cb;
 	text-decoration: none;
 	border-radius: 50px;
 	transition: 0.3s background-color ease-in-out;

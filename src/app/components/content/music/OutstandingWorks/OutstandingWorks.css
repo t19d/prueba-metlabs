@@ -8,8 +8,7 @@
 		display: grid;
 		grid-template-columns: auto 1fr;
 		align-items: center;
-		gap: 7.5vw;
-		gap: 7.5dvw;
+		gap: 7rem;
 
 		h3 {
 			font-size: 1.5rem;

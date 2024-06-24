@@ -1,4 +1,5 @@
 "use client";
+import { usePathname } from "next/navigation";
 import "./LinkMenu.css";
 
 interface LinkMenuProps {
@@ -11,8 +12,9 @@ interface LinkMenuProps {
 }
 
 export default function LinkMenu({ text, href, icon }: LinkMenuProps) {
-	const isCurrentPage = window.location.pathname === href;
 	let className = "link";
+	const pathname = usePathname();
+	let isCurrentPage = pathname === href;
 	if (isCurrentPage) className += " current-page";
 
 	return (

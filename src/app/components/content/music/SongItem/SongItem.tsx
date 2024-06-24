@@ -1,4 +1,7 @@
 import type Song from "@/app/models/song";
+import HandshakeIcon from "@/app/components/icons/HandshakeIcon";
+import CartIcon from "@/app/components/icons/CartIcon";
+import HeartIcon from "@/app/components/icons/HeartIcon";
 import "./SongItem.css";
 
 interface SongItemPropos {
@@ -16,6 +19,23 @@ export default function SongItem({ song }: SongItemPropos) {
 					<span>{song.artist}</span>
 				</div>
 			</div>
+			<ul className="actions">
+				<li>
+					<a href="#" className="btn-icon">
+						<HandshakeIcon />
+					</a>
+				</li>
+				<li>
+					<a href="#" className="btn-icon">
+						<CartIcon />
+					</a>
+				</li>
+				<li>
+					<a href="#" className="btn-icon">
+						<HeartIcon />
+					</a>
+				</li>
+			</ul>
 		</div>
 	);
 }

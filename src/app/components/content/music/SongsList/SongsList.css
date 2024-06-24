@@ -1,5 +1,6 @@
 ul.songs {
 	display: flex;
 	gap: 2.5rem;
+	padding-bottom: 2rem;
     overflow-x: auto;
 }

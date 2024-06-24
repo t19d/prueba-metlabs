@@ -4,6 +4,6 @@
 body > main {
 	display: flex;
 	flex-direction: column;
-	gap: 2vh;
-	gap: 2dvh;
+	gap: 3vh;
+	gap: 3dvh;
 }

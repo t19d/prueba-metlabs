@@ -1,0 +1,26 @@
+a.link {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 50px;
+	transition: 0.3s background-color ease-in-out;
+
+	&:not(.current-page)::before {
+		content: "";
+		position: absolute;
+		width: 0;
+		height: 1px;
+		background-color: currentColor;
+		top: calc(100% + 1px);
+		left: 0;
+		transition: 0.3s width ease-in-out;
+	}
+
+	&:hover::before,
+	&:focus::before {
+		width: 100%;
+	}
+}

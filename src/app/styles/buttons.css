@@ -4,11 +4,18 @@
 	background-color: #7855dc;
 	border: none;
 	color: currentColor;
+	text-transform: capitalize;
+	text-decoration: none;
 	border-radius: 50px;
 	cursor: pointer;
 	transition: 0.3s background-color ease-in-out;
 
 	&:hover {
 		background-color: #693de0;
+	}
+
+	&.btn-outline {
+		background-color: transparent;
+		border: 1px solid #E3E3E3;
 	}
 }

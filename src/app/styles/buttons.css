@@ -18,6 +18,11 @@
 	&.btn-outline {
 		background-color: transparent;
 		border: 1px solid #e3e3e3;
+
+		&:hover,
+		&:focus {
+			background-color: #ffffff14;
+		}
 	}
 }
 

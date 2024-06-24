@@ -32,6 +32,11 @@
 
 				&:first-child {
 					background-color: #ffffff14;
+
+					&:hover,
+					&:focus {
+						background-color: #ffffff40;
+					}
 				}
 			}
 		}

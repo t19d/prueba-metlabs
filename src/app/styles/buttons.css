@@ -10,12 +10,27 @@
 	cursor: pointer;
 	transition: 0.3s background-color ease-in-out;
 
-	&:hover {
+	&:hover,
+	&:focus {
 		background-color: #693de0;
 	}
 
 	&.btn-outline {
 		background-color: transparent;
-		border: 1px solid #E3E3E3;
+		border: 1px solid #e3e3e3;
+	}
+}
+
+.btn-icon {
+	font: inherit;
+	border: none;
+	color: currentColor;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 0.3s color ease-in-out;
+
+	&:hover,
+	&:focus {
+		color: #c9c9cb;
 	}
 }
